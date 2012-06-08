@@ -38,7 +38,7 @@ $b=$_POST['content'];
 
 	$c = $result['msg'];
 	
-	header('Location: http://127.0.0.1/montnets-PHP/modal-form.php?res='+c+'');
+	header('Location: http://127.0.0.1/montnets-PHP/modal-form.php?res='+$c+'');
 	
 ?>
 
