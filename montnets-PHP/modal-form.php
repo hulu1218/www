@@ -130,11 +130,11 @@
 	
 <div id="resizable" class="ui-widget-content">
 	<h3 class="ui-widget-header">九天国际短息发送系统</h3>
-    <form action="./../../../../test.php" method="post">
+    <form action="test.php" method="post">
     
     <h3 class="ui-widget-header">请输入手机号码：</h3><textarea name="phone"  ></textarea>
     <h3 class="ui-widget-header">请输入短信内容：</h3><textarea name="content" class="form2"></textarea>
-    <input type="submit" name="sure" value="确定发送" class="ui-button ui-state-default ui-corner-all" onclick="../../../../../test.php"/>
+    <input type="submit" name="sure" value="确定发送" class="ui-button ui-state-default ui-corner-all" onclick="test.php"/>
    <button id="create-user" class="ui-button ui-state-default ui-corner-all">Create new user</button>
       
     </form>

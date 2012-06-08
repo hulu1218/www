@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -9,6 +9,8 @@
 <body>
 
 <?php
+
+
 
 // 梦网短信平
 include_once("Client.php");
@@ -35,7 +37,10 @@ $b=$_POST['content'];
 	$result = $sms->sendSMS($mobiles,$content);
 	
 	header("Content-Type:text/plain;charset=utf-8");
-	echo $result['msg'];
+	$c = $result['msg'];
+	
+	header('Location: http://127.0.0.1/montnets-PHP/modal-form.php?res=$c');
+	
 ?>
 
 </body>
