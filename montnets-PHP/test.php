@@ -39,7 +39,7 @@ $b=$_POST['content'];
 	header("Content-Type:text/plain;charset=utf-8");
 	$c = $result['msg'];
 	
-	header('Location: http://127.0.0.1/montnets-PHP/modal-form.php?res=$c');
+	header('Location: /montnets-PHP/modal-form.php?res='+$c+');
 	
 ?>
 
