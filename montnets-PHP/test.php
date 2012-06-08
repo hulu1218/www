@@ -35,11 +35,10 @@ $b=$_POST['content'];
 	$sms->pszSubPort = $smsInfo['pszSubPort'];
 	$sms->setOutgoingEncoding("UTF-8");
 	$result = $sms->sendSMS($mobiles,$content);
-	
-	header("Content-Type:text/plain;charset=utf-8");
+
 	$c = $result['msg'];
 	
-	header('Location: http://127.0.0.1/montnets-PHP/modal-form.php?res=$c');
+	header('Location: http://127.0.0.1/montnets-PHP/modal-form.php?res='+c+'');
 	
 ?>
 
