@@ -1,0 +1,2 @@
+<?php
+$data = 'a:3:{i:0;a:3:{s:3:"pic";s:15:"/images/ad1.jpg";s:3:"url";s:26:"http://www.dedecms.com/v57";s:11:"description";s:15:"DedeCMSV5.7发布";}i:1;a:3:{s:3:"pic";s:15:"/images/ad2.jpg";s:3:"url";s:24:"http://taoke.dedecms.com";s:11:"description";s:10:"织梦淘宝客";}i:2;a:3:{s:3:"pic";s:0:"";s:3:"url";s:0:"";s:11:"description";s:0:"";}}';

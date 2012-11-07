@@ -1,0 +1,287 @@
+/* 2008Í¨ÐÐÖ¤×¢²á */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
+body,ul,ol,li,p,form,fieldset,table,td{font-family:"ËÎÌå";}
+body{background:#fff;color:#000;text-align:left;}
+td,p,li,select,input,textarea,div{font-size:12px;}
+
+ul{list-style-type:none;}
+select,input{vertical-align:middle;}
+
+a{text-decoration:none;}
+a:link{color:#1e50a2;}
+a:visited{color:#1e50a2;}
+a:hover,a:active,a:focus{color:#1e50a2;text-decoration:underline;}
+
+
+.btnbox{ margin-left:255px;}
+.clearit {clear:both;}
+.f12{ font-size:12px;}
+.f14 {font-size:14px;}
+.fb {font-weight:bold;}
+.red{ color:#c00; font-family:Verdana;}
+.red_ero{color:#c00; font-family:Verdana; vertical-align:middle;display: block; line-height: 30px; /*height:30px;*/ float:left;/*overflow:hidden;*/}
+.red_ero_fix {width:420px;/*_width:420px;*/z-index:1000}
+.orange {color:#ff7800;}
+.zi_6 {color:#666;}
+.zi_9 {color:#999;}
+.link a:link,.link a:visited,.link a:hover {color:#1e50a2;text-decoration:underline;}
+
+/* Ö÷ÈÝÆ÷ */
+body {width:100%;font-size:12px;background:#dfebf5 url('/images/signup/bg.gif') repeat-x left top;}
+#wrap {width:100%;height:400px;background:url('/images/signup/bghead.jpg') repeat-x center top;}
+
+.head {width:781px;margin:0 auto;}
+.logo {float:left; width:153px; height:40px;background:url('/images/signup/logo.png') no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/signup/logo.png', sizingMethod='scale'); margin:30px 0 10px 5px;}
+.weibo_logo {float:left; width:153px; height:40px;background:url('/images/signup/weibo_logo.gif') no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/signup/logo.png', sizingMethod='scale'); margin:30px 0 10px 5px;}
+.logomail {float:left; width:145px; height:40px;background:url('/images/signup/logomail.png') no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/signup/logomail.png', sizingMethod='scale'); margin:30px 0 10px 5px;}
+.logotxt {float:left; margin:50px 0 0 10px;}
+.headlink {float:right; width:400px; text-align:right; margin:58px 8px 0 0;color:#fff;}
+.headlink a,.headlink a:link,.headlink a:visited{ color:#fff; text-decoration:none;}
+.headlink a:hover{ color:#fff; text-decoration:underline;}
+.showcolor {background:url('/images/signup/showcolor.png') no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/signup/showcolor.png', sizingMethod='scale');}
+
+.main {width:781px; clear:both; margin:0 auto; position:relative;}
+.main_top{width:781px; height:auto; _height:70px; min-height:70px; background:#fff url('/images/signup/bghead_top.gif') no-repeat; overflow:hidden;*overflow:visible;}
+.main_bottom {width:781px; height:5px; background:url('/images/signup/bghead_bottom.gif') no-repeat; overflow:hidden;}
+.main_top_com{width:781px; height:auto; _height:70px; min-height:70px; background:#fff url('/images/signup/bghead_top_com.gif') no-repeat; overflow:hidden;*overflow:visible;}
+.main_cen {height:auto; _height:200px; min-height:200px;background:#fff; border-left:1px solid #86adc6; border-right:1px solid #86adc6; padding:10px 0 50px 0;}
+.logoicon {width:77px; height:110px;background:url('/images/signup/logoicon.png') no-repeat;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/signup/logoicon.png', sizingMethod='scale'); position:absolute; right:-54px; top:15px;}
+
+.notice {width:440px; height:30px; line-height:30px; background:#fffeed; border:1px solid #f7dcaa; text-align:center; color:#ff7800; margin:20px auto 10px auto;}
+.title {width:670px; height:35px; line-height:35px; clear:both; background:url('/images/signup/btn.gif') repeat-x 0 -370px; border-top:1px solid #cad6df; padding:0 15px; margin:0 auto; font-size:14px; font-weight:bold; color:#333;}
+.title1 {width:670px; height:35px; line-height:35px; clear:both; background:#fff; border-top:1px solid #cad6df; padding:0 15px; margin:0 auto; font-size:14px; font-weight:bold; color:#333;}
+.title_bottom {width:670px; height:34px; line-height:34px; clear:both; background:url('/images/signup/btn.gif') repeat-x 0 -412px; border-bottom:1px solid #cad6df; padding:0 15px; margin:0 auto; font-size:14px; font-weight:bold; color:#333;}
+.title_top {width:670px; height:35px; line-height:35px; clear:both; margin:29px auto 0 auto;padding:0 15px; font-size:14px; font-weight:bold; color:#333;}
+.title_top1 {width:670px; height:35px; line-height:35px; clear:both; margin:29px auto 0 auto; text-align:center; font-size:14px; font-weight:bold; color:#333;}
+.title_sub {font-size:12px; font-weight:bold; padding-left:20px;color:#999;}
+.title_note {padding:10px 0; text-align:center;}
+.title_note1 {padding-top:55px; text-align:center;}
+.title_big {font-size:18px; font-family:"Î¢ÈíÑÅºÚ"; font-weight:bold; width:670px; clear:both; margin:0 auto 30px auto; text-align:center; }
+.title_big1 {font-size:18px; font-family:"Î¢ÈíÑÅºÚ"; font-weight:bold; width:670px; clear:both; margin:0 auto 0px auto; text-align:center; }
+.title_big2 {font-size:18px; font-family:"Î¢ÈíÑÅºÚ"; font-weight:bold; clear:both; text-align:left; }
+.title_big3 {font-size:18px; font-family:"Î¢ÈíÑÅºÚ"; font-weight:bold; clear:both; text-align:left; margin-top:30px; }
+.title_all {width:550px; padding-left:150px; line-height:2.5em;}
+.title_all_top {width:550px; padding-left:150px; line-height:2em; margin:20px 0;}
+.title_f{ float:left; width:550px; line-height:2.5em;}
+.title_f .fb{font-weight:bold; font-family:Verdana; font-style:normal; }
+.title_mail{ float:left; width:550px; padding:10px 0 10px 150px; line-height:2.5em; color:#666; }
+.title_cen {width:670px; height:35px; line-height:35px; clear:both; margin:29px auto 0 auto;padding:0 15px; font-size:14px; font-weight:bold; color:#333;}
+
+ul.mainlist {width:670px; clear:both; padding:0 15px; margin:0px auto;}
+ul.mainlist li {height:30px; line-height:30px;}
+
+ul.mainlogin{ width:704px; clear:both; margin:0px auto; padding:10px 0;}
+ul.mainlogin li{ clear:both; font-family:Verdana,"ËÎÌå"; }
+.ml_l{ float:left; width:275px; height:30px; line-height:30px; text-align:right; padding-right:5px;}
+.ml_r{ float:left; width:420px; margin-bottom:12px; position:relative;}
+
+ul.maintable {width:704px;clear:both;margin:0px auto;padding:20px 0;}
+ul.maintable li {clear:both;font-family:Verdana,"ËÎÌå";}
+.mt_l {float:left;width:175px;height:30px;line-height:30px;text-align:right;padding-right:5px;}
+.mt_r {float:left;width:520px;margin-bottom:12px;position:relative;}
+
+ul.message {width:410px; border:1px solid #ffe0ab; background:#fffeed; margin-left:140px; padding:20px; word-break:break-all;}
+ul.message li{ clear:both; line-height:2.5em; font-family:Verdana,"ËÎÌå"; word-wrap:break-word;}
+.title_mess {margin-left:140px; margin-bottom:10px;}
+
+.service {width:635px; height:435px; line-height:1.5em; overflow-y:scroll; margin:0 auto; padding:10px 30px;}
+
+.inputbox {float:left;width:180px;margin-right:10px;}
+.inputbox .input {float:left; width:10px; height:24px;line-height:24px; background:url('/images/signup/btn.gif') left -135px; margin:3px 5px 3px 0;}
+.inputbox .input cite {float:left; height:24px; line-height:24px; background:url('/images/signup/btn.gif') right -164px; margin-left:10px; padding:2px 10px 0 0;   width:160px; font-family:"ËÎÌå"; font-style:normal;}
+.inputbox .input input{ background:#ffffef; width:100%; height:18px; line-height:18px; padding:2px 2px 0 0; border:0;font-family:Verdana,"ËÎÌå";}
+
+.inputbox .inputGreen {height:30px; line-height:30px; background-position: left -193px; margin:0 5px 0 0;}
+.inputbox .inputGreen cite {height:26px; line-height:26px; background:url('/images/signup/btn.gif') right -228px; padding:4px 10px 0 0;   }
+
+.inputbox .inputRed {height:30px; line-height:30px; background-position: left -263px; margin:0 5px 0 0;}
+.inputbox .inputRed cite {height:26px; line-height:26px; background:url('/images/signup/btn.gif') right -298px; padding:4px 10px 0 0;  }
+
+#selectq {cursor:pointer;}
+.selectinput{ position:relative; z-index:2; color:#999;}
+.select {position:absolute;top:17px;left:0;width:180px;z-index:999;}
+.select ul{background:#fdfdf4; padding-top:10px; border-left:1px solid #909090;border-right:1px solid #909090;}
+.select ul li{ clear:both; height:27px; line-height:27px; }
+.select ul li a,.select ul li a:link,.select ul li a:visited{height:27px; padding-left:10px; display:block; color:#000;}
+.select ul li a:hover{ background:#f3f3cf; color:#59a3e7; text-decoration:none;}
+.select .selebottom{ width:180px; height:5px; background:url('/images/signup/btn.gif') 0 -125px;  border:0; overflow:hidden;}
+.selectinput img{ position:absolute; right:10px;_right:15px; top:13px; z-index:4;}
+
+.inputacc {line-height:26px;vertical-align:top;}
+.inputacc_ie6 {_padding-top:4px;}
+.inputacc_signin {float:left;}
+/*.inputacc {_padding-top:5px;}*/
+.inputtxt {clear:both;padding-top:2px;}
+.inputbtn a,.inputbtn a:link,.inputbtn a:visited {width:42px;height:22px;line-height:22px;text-align:center;border:1px solid #d5d5d5;background:url('/images/signup/btn.gif') repeat-x 0 -338px;color:#1e50a2;text-decoration:none;display:inline-block;margin:3px 15px 0 15px;}
+.email_tip{width:307px; height: 28px;line-height:24px;color:#000000;}
+.email_tip_padd{ padding:0 17px 0 8px;}
+.emailname{border:1px solid #929090;width: 332px;padding:1px; position:relative; margin-top:7px;}
+.regChoose_tan{ position:absolute; left:38px; top:-8px; background:url('/images/signup/tan_choose.gif') no-repeat left top; width:15px; height:8px;}
+.btn_checkNew{ background-image:url(/images/signup/signup/btn_checknew.png); background-repeat:no-repeat; width:62px; height:25px; text-align:center; line-height:25px; display:block; float:left; margin-top:3px;}
+a.btn_checkNew:link,
+a.btn_checkNew:visited{ background-position:0 0; color:#e2f1fe; text-decoration:none;}
+a.btn_checkNew:hover{ background-position:0 -25px; color:#e2f1fe; text-decoration:none;}
+.tip_top{background:#ededed;height:24px;line-height:24px;color:#000000;}
+.tip_top_padd{ padding-left:8px;}
+.location{color:#cc0000;font-weight:bold;font-size:14px;text-align:right;cursor:pointer;}
+.location_disabled{color:#919191;font-weight:bold;font-size:14px;}
+.info{margin-right:1px;}
+.info_disabled{margin-right:1px;color:#919191;}
+.email_name{cursor:pointer;}
+.email_name_disabled{color:#919191;}
+.notifyType{/*width:10px;height:10px;*/position:relative;top:3px;*top:2px;cursor:pointer;}
+.right{float:right;}
+.inputinfo{padding-top:10px;font-family: ''cb'ce'cc'e5'; COLOR: #ff6600; font-size: 13px;}
+.inputStxt1{ float:left; height:25px;line-height:21px;margin:2px 6px 3px -5px;width:56px;}
+.text_info{font-size:weight;float:left;font-family:Verdana,"ËÎÌå";font-style:normal;height:24px;line-height:24px;margin-left:10px;padding:2px 10px 0 0;}
+
+.cursorDft{ cursor:default;}
+.inputfloat {float:left;margin-right:10px;}
+
+.error {width:14px;height:14px;_height:20px;background:url('/images/signup/btn.gif') no-repeat;background-position:-165px -88px;_background-position: -165px -81px;display:inline-block;margin:0 3px 0 3px; vertical-align:middle;}
+.error_2 {width:14px;height:30px;background:url('/images/signup/btn.gif') no-repeat;background-position:-165px -79px; _background-position:-165px -82px;display:block; float:left; margin:0 3px 0 3px;}
+
+.yes {width:14px;height:22px;background:url('/images/signup/btn.gif') no-repeat -184px -80px;display:inline-block;margin:0 3px 0 0;}
+
+.hide {display:none;}
+
+.passW {float:left;position:relative;margin-top:4px;}
+.passW_w {display:block;width:48px;height:6px;background:url('/images/signup/btn.gif') no-repeat -112px -88px; overflow:hidden; border:1px solid #d0d0d0;}
+.passW_b {display:block; width:48px; height:6px;background:url('/images/signup/btn.gif') no-repeat -112px -99px; overflow:hidden; border:1px solid #0069c4;}
+.passW_t {position:absolute;top:11px;left:20px;font-family:"ËÎÌå";color:#666;}
+.passWcurr .passW_w {display:block;width:48px;height:6px;background:url('/images/signup/btn.gif') no-repeat -112px -99px;overflow:hidden;border:1px solid #0069c4;}
+.passWcurr .passW_t {position:absolute;top:11px;left:20px;font-family:"ËÎÌå";color:#666;font-weight:bold;}
+
+.btn_s a,.btn_s a:link,.btn_s a:visited{ width:95px; height:28px; line-height:28px; text-align:center; margin-top:10px; background:url('/images/signup/btn.gif') no-repeat 0 -82px; display:block; font-size:14px; font-weight:bold; color:#fff; text-decoration:none;}
+.btn_s_c a,.btn_s_c a:link,.btn_s_c a:visited{ width:95px; height:28px; line-height:28px; text-align:center; margin:20px auto; background:url('/images/signup/btn.gif') no-repeat 0 -82px; display:block; font-size:14px; font-weight:bold; color:#fff; text-decoration:none;}
+.btn_m a,.btn_m a:link,.btn_m a:visited{ float:left; width:122px; height:34px; line-height:34px; text-align:center; margin:10px 10px 0 0; background:url('/images/signup/btn.gif') no-repeat 0 -38px; display:block; font-size:18px; color:#fff; text-decoration:none; font-family:"Î¢ÈíÑÅºÚ";}
+.btn_m_c a,.btn_m_c a:link,.btn_m_c a:visited{ width:122px; height:34px; line-height:34px; text-align:center; margin:30px auto; background:url('/images/signup/btn.gif') no-repeat 0 -38px; display:block; font-size:18px; color:#fff; text-decoration:none; font-family:"Î¢ÈíÑÅºÚ";}
+.btn_l a,.btn_l a:link,.btn_l a:visited{ float:left; width:198px; height:28px; line-height:28px; text-align:center; background:url('/images/signup/btn.gif') no-repeat 0 0; display:block; font-size:14px; font-weight:bold; color:#fff; text-decoration:none;}
+.btn_l_c a,.btn_l_c a:link,.btn_l_c a:visited{ width:198px; height:28px; line-height:28px; text-align:center; margin:20px auto 30px auto; background:url('/images/signup/btn.gif') no-repeat 0 0; display:block; font-size:14px; font-weight:bold; color:#fff; text-decoration:none;}
+
+.btn_submit,.btn_submit_l {width:95px;height:28px;line-height:28px;text-align:center;margin-top:10px;background:url('/images/signup/btn.gif') no-repeat 0 -82px;font-size:14px;font-weight:bold;color:#fff;text-decoration:none;border:0;cursor:pointer;}
+.btn_submit_l {width:180px;background-position:0 -455px;}
+.btn_submit_m {width:122px;height:34px;line-height:34px;text-align:center;margin:10px 10px 0 0;background:url('/images/signup/btn.gif') no-repeat 0 -38px;font-size:18px;color:#fff;text-decoration:none;font-family:"Î¢ÈíÑÅºÚ";border:0;cursor:pointer;}
+
+
+.Footer{ clear:both; text-align:center; line-height:25px; font-family:Arial,"ËÎÌå"; margin-top:10px;}
+
+.f16{ font-size:16px;}
+ul.step{ clear:both; height:28px; overflow:hidden; padding:30px 0 0 40px; }
+.step1{ float:left; width:133px; height:28px; background:url('/images/signup/step.gif') no-repeat 0 0;}
+.step1_c{ float:left; width:133px; height:28px; background:url('/images/signup/step.gif') no-repeat 0 -28px;}
+.step2{ float:left; width:100px; height:28px; background:url('/images/signup/step.gif') no-repeat -144px 0;}
+.step2_c{ float:left; width:100px; height:28px; background:url('/images/signup/step.gif') no-repeat -144px -28px;}
+.step3{ float:left; width:100px; height:28px; background:url('/images/signup/step.gif') no-repeat -251px 0;}
+.step3_c{ float:left; width:100px; height:28px; background:url('/images/signup/step.gif') no-repeat -251px -28px;}
+.steparrow{ float:left; display:inline; width:7px; height:13px; background:url('/images/signup/step.gif') no-repeat -363px -22px; margin:8px 20px 0 20px;}
+.inputacc1{ height:30px; line-height:30px; vertical-align:middle; margin-top:0; _margin-top:-3px;}
+.notice1 {width:440px; text-align:center; color:#ff7800; margin:0 auto; padding:5px 0 15px 0;}
+
+.inputboxS{ float:left; width:100px; margin-right:10px;}
+.inputboxS .input{ float:left; width:10px; height:24px;line-height:24px; background:url('/images/signup/btn.gif') left -135px; margin:3px 5px 3px 0;}
+.inputboxS .input cite{ float:left; height:24px; line-height:24px; background:url('/images/signup/btn.gif') right -164px; margin-left:10px; padding:1px 10px 0 0; width:80px; font-family:"ËÎÌå"; font-style:normal;}
+
+.inputStxt{ float:left; margin:6px 6px 0 -5px;}
+.selectSmallinput{ position:relative; z-index:2; color:#999;}
+.selectSmall{ position:absolute; top:27px; left:206px;_left:213px; width:93px;}
+.selectSmall ul{background:#fdfdf4; border:1px solid #909090; border-top:none;}
+.selectSmall ul li{ clear:both; height:27px; line-height:27px; }
+.selectSmall ul li a{ display:block;}
+.selectSmall ul li a,.select ul li a:link,.select ul li a:visited{height:27px; padding-left:10px; display:block; color:#000;}
+.selectSmall ul li a:hover{ background:#f3f3cf; color:#59a3e7; text-decoration:none;}
+.selectSmallinput img{ position:absolute; right:10px;_right:15px; top:13px; z-index:4;}
+
+#selMail{ cursor:pointer;}
+/*¹Ø±ÕBTN*/
+a.bbtn:link,a.bbtn:visited,a.bbtn:hover{background:url('/images/signup/close_btn.png') no-repeat;text-decoration:none;font-size:14px;font-weight:bold;width:80px;height:31px;line-height:31px; text-align:center;color:#087ad3;display:inline-block;}
+a.bbtn:hover{background-position:0 -36px;cursor:pointer;}
+
+/*×¢²áÒ³µ÷Õû*/
+.check_wrap{height:60px;}
+.check_wrap .link{vertical-align:top;line-height:30px;}
+
+/*×¢²á¸Ä°æ*/
+.main_cen_new .inputbox .input,
+.main_cen_new .input cite,
+.main_cen_new .btn_s .btn_submit_l,
+.main_cen_new h1 .p_cion,
+.main_cen_new .inputacc .error,
+.main_cen_new .mt_r .success i,
+.mailadd_exist .adv_arrow,
+
+.tips_arrow,
+.ipt_tips .close{background-image:url("/images/signup/input_new.gif");background-repeat:no-repeat;}
+
+.main_cen_new{height:auto; _height:200px; min-height:200px;background:#fff; border-left:1px solid #86adc6; border-right:1px solid #86adc6; padding:10px 0 50px 0;}
+.main_cen_new .p_title{padding-top:15px;width:700px;height:30px;background:#61a4da;color:#000;margin:0 auto;position:relative}
+.main_cen_new .p_title .lft_corner,
+.main_cen_new .p_title .rit_corner{position:absolute;top:0;background:#fff;display:block;width:1px;height:1px;overflow:hidden;}
+.main_cen_new .p_title .lft_corner{left:0;}
+.main_cen_new .p_title .rit_corner{right:0;}
+.main_cen_new h1{color:#fff;font-family:'Microsoft Yahei';font-size:17px;}
+.main_cen_new h1 .p_cion{float:left;margin:0 8px 0 20px;width:24px;height:24px;background-position:0 -310px;display:inline-block;_display:inline;zoom:1;}
+.main_cen_new .maintable{padding-top:40px;background:#eff6fb;width:700px;overflow:hidden;}
+.main_cen_new .mt_l{font-size:14px;width:170px;height:39px;line-height:38px;color:#666;}
+.main_cen_new .mt_l .red{padding:0 6px;}
+.main_cen_new .mt_r{margin-bottom:4px;}
+.main_cen_new .mt_r .success{float:left;padding-top:14px;}
+.main_cen_new .mt_r .success i{float:left;width:16px;height:16px;background-position:-87px -310px;}
+
+.main_cen_new .mt_r .scu_lev{float:left;padding-top:12px;}
+.main_cen_new .mt_r .scu_lev span{display:block;width:105px;height:22px;background-image:url("/images/signup/pwbg.png");background-repepat:no-repeat;background-position:0 0;overflow:hidden;}
+.main_cen_new .mt_r .scu_lev .w1{background-position:0 -25px;}
+.main_cen_new .mt_r .scu_lev .w2{background-position:0 -50px;}
+.main_cen_new .mt_r .scu_lev .w3{background-position:0 -75px;}
+
+.main_cen_new .inputbox{width:242px;}
+.main_cen_new .inputbox .input{height:39px;background-position:left 2px;}
+.main_cen_new input:focus{border:none;outline:none;}
+.main_cen_new .input cite{width:220px;height:30px;background-position:right -43px;padding:9px 9px 0 0;}
+.main_cen_new .mail_add{width:120px;overflow:hidden;margin-right:3px;}
+.main_cen_new .mail_add cite{width:100px;_width:100px;}
+.main_cen_new .mail_type{width:115px;overflow:hidden;}
+.main_cen_new .mail_type cite{width:95px;}
+.main_cen_new .veri_code{width:60px;}
+.main_cen_new .veri_code cite{width:50px;}
+.main_cen_new .veri_img{float:left;padding-top:6px;}
+.main_cen_new .link{float:left;padding:12px 28px 0 6px;}
+.main_cen_new select{font-size:14px;border:none;font-family:"arial";}
+.main_cen_new  .secu_question select{width:220px;}
+.main_cen_new .inputbox .inputfcs{background-position:0 -90px;}
+.main_cen_new .inputbox .inputfcs input{color:#333;}
+.main_cen_new .input .gender{width:auto;line-height:auto;margin:0 -2px 0 0; vertical-align:top;}
+.main_cen_new .inputfcs cite{background-position:right -139px;}
+.main_cen_new .input input{font-size:14px;color:#999;background:none;}
+.main_cen_new .btn_s .btn_submit_l{width:217px;height:51px;background-position:0 -188px;text-indent:-9000em;_zoom:1;float:left;}
+/*.main_cen_new .btn_s a:hover{background-position:0 -249px;}*/
+.main_cen_new .liense_wp{padding-top:18px;line-height:22px;}
+.main_cen_new .inputbox select{font-size:12px;margin:2px; vertical-align:top;}
+.main_cen_new .inputbox label{ vertical-align:top;*vertical-align:-6px;line-height:20px;padding-left:4px;}
+
+/*´íÎóÌáÊ¾*/
+.input_pls{left:250px;position:absolute;}
+.input_tips_new{position:absolute;z-index:200;top:0;left:0;width:230px;margin-top:4px;background:#fffceb;padding:4px 8px;border:1px solid #ececd5;color:#686868;border-radius:2px;}
+.main_cen_new .inputacc{background:#FFEAEA;border-radius:3px;border:1px solid #e5c3c4;margin-top:3px;height:25px;line-height:14px;padding:10px 10px 0 3px; white-space:nowrap;position:absolute;z-index:99;}
+.main_cen_new .inputacc .error{width:16px;height:16px;background-position:-54px -310px;}
+
+/*ÓÊÏäÃûÌáÊ¾*/
+.mailadd_exist{position:absolute;width:306px;border:1px solid #ddd;background:#fff;}
+.mailadd_exist .mailadd_tl{background:#ffffe1;padding:8px 20px;border-bottom:1px solid #ddd;}
+.mailadd_exist .mailadvic_lst{background:#fff;border-top:#ddd; overflow:hidden;padding:12px 0;}
+.mailadd_exist .mailadvic_lst dl{height:22px;overflow:hidden; vertical-align:top;margin:0;font-size:13px;}
+.mailadd_exist .mailadvic_lst dd{float:left;height:20px;white-space:nowrap;overflow:hidden;margin-left:0;font-weight:bold;line-height:22px;line-height:22px;color:#333;vertical-align:top;}
+.mailadd_exist .no_supply dd,
+.mailadd_exist .no_supply dd .postfix{color:#999;}
+.mailadd_exist .mailadvic_lst .radio_wrap{width:28px;text-align:center;}
+.mailadd_exist .radio_wrap  input{vertical-align:-2px;_vertical-align:-3px; margin-right:3px; *margin-right:0;}
+.mailadd_exist .mailadvic_lst .mail_addr{width:195px; font-family:Arial;}
+.mailadd_exist .mailadvic_lst .mail_state{font-weight:normal;}
+.mailadd_exist .mailadvic_lst .postfix{color:#f00;}
+.mailadd_exist .adv_arrow{width:13px;height:7px;background-position:-31px -310px;position:absolute;top:-7px;left:148px;}
+
+/*´óÐ¡Ð´´ò¿ªÌáÊ¾*/
+.ipt_tips{height:28px;position:absolute;background:#ffffe3;border:1px solid #c6c6c6;border-radius:2px;}
+.tips_txt {font-size:12px;font-weight:bold;color:#a41213;padding:5px 30px 5px 10px;float:left;}
+.tips_arrow{position:absolute;display:block;width:9px;height:6px;background-position:-131px -311px;top:28px;left:14px;}
+.ipt_tips .close{position:absolute;display:block;width:8px;height:8px;background-position:-113px -311px;top:6px;right:4px;}

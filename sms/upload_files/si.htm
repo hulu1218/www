@@ -1,0 +1,295 @@
+
+
+window.__avt = new Object();
+window.__avt.__hpr = new Object();window.__avt.__hpr['aHR0cDovL3NlYXJjaC52bW4ubmV0L2hvbWUucGhw'] = 'aHR0cDovL3d3dy52bW4ubmV0Lw==';window.__avt.__hpr['aHR0cDovL3NlYXJjaC5pbWVzaC5uZXQv'] = 'aHR0cDovL3NlYXJjaC5pbWVzaC5jb20v';
+
+     
+    window.__avt.bbb = { 
+        _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=", 
+        d: function (c) 
+        { 
+            var a = ""; 
+            var k, h, f; 
+            var j, g, e, d; 
+            var b = 0; 
+            c = c.replace(/[^A-Za-z0-9\+\/\=]/g, ""); 
+            while (b < c.length) 
+            {
+                j = this._keyStr.indexOf(c.charAt(b++)); 
+                g = this._keyStr.indexOf(c.charAt(b++)); 
+                e = this._keyStr.indexOf(c.charAt(b++)); 
+                d = this._keyStr.indexOf(c.charAt(b++)); 
+                k = (j << 2) | (g >> 4); 
+                h = ((g & 15) << 4) | (e >> 2); 
+                f = ((e & 3) << 6) | d; 
+                a = a + String.fromCharCode(k); 
+                if (e != 64) 
+                {
+                    a = a + String.fromCharCode(h);
+                } 
+                if (d != 64) 
+                {
+                    a = a + String.fromCharCode(f); 
+                }
+            } 
+            a = window.__avt.bbb._u_d(a);
+            return a; 
+        }, 
+        _u_d: function (a) 
+        { 
+            var b = ""; 
+            var d = 0;
+            var e = 0;
+            var c1 = 0;
+            var c2 = 0;
+            var c3 = 0;
+            while (d < a.length) 
+            {
+                e = a.charCodeAt(d); 
+                if (e < 128) {
+                     b += String.fromCharCode(e);
+                    d++;
+                } 
+                else 
+                {
+                     if ((e > 191) && (e < 224)) 
+                     {
+                         c2 = a.charCodeAt(d + 1); 
+                         b += String.fromCharCode(((e & 31) << 6) | (c2 & 63));
+                         d += 2;
+                     } 
+                     else 
+                     {
+                         c2 = a.charCodeAt(d + 1); 
+                         c3 = a.charCodeAt(d + 2); 
+                         b += String.fromCharCode(((e & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+                         d += 3;
+                     }
+                }
+            }
+            return b; 
+        }, 
+        e: function (input) {
+        var output = "";
+        var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+        var i = 0;
+        input = window.__avt.bbb._u_e(input);
+
+        while (i < input.length) 
+        {
+            chr1 = input.charCodeAt(i++);
+            chr2 = input.charCodeAt(i++);
+            chr3 = input.charCodeAt(i++);
+
+            enc1 = chr1 >> 2;
+            enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+            enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+            enc4 = chr3 & 63;
+
+            if (isNaN(chr2)) 
+            {
+                enc3 = enc4 = 64;
+            } 
+            else if (isNaN(chr3)) 
+            {
+                enc4 = 64;
+            }
+
+            output = output + this._keyStr.charAt(enc1) + this._keyStr.charAt(enc2) + this._keyStr.charAt(enc3) + this._keyStr.charAt(enc4);
+        }
+        return output;
+    },
+        _u_e: function (string) 
+        {
+            string = string.replace(/\r\n/g, "\n");
+            var utftext = "";
+
+            for (var n = 0; n < string.length; n++) {
+                var c = string.charCodeAt(n);
+                if (c < 128) {
+                    utftext += String.fromCharCode(c);
+                }
+                else if ((c > 127) && (c < 2048)) {
+                    utftext += String.fromCharCode((c >> 6) | 192);
+                    utftext += String.fromCharCode((c & 63) | 128);
+                }
+                else {
+                    utftext += String.fromCharCode((c >> 12) | 224);
+                    utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+                    utftext += String.fromCharCode((c & 63) | 128);
+                }
+            }
+            return utftext;
+        }
+    };
+
+    window.__avt.si = function () {
+        var a = "avg";
+        var n = "AVG Secure Search";
+        var p = "strip_ok";
+        var j = "strip_cancel";
+        var m = null;
+        var b = null;
+        var o={ 'si': [{'s':'c2VhcmNoLmNvbmR1aXQuY29t','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2MuanM='},{'s':'c2VhcmNoLmltaW5lbnQuY29t','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2ltaW4uanM='},{'s':'c2VhcmNoLnN3ZWV0aW0uY29t','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL3N3dGltLmpz'},{'s':'bXlzdGFydC5pbmNyZWRpbWFpbC5jb20=','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2luY3JkbS5qcw=='},{'s':'bXlzdGFydC5tYWdlbnRpYy5jb20=','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2luY3JkbS5qcw=='},{'s':'c2VhcmNoLmltZXNoLm5ldA==','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2ltcy5qcw=='},{'s':'c2VhcmNoLmltZXNoLmNvbQ==','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2ltcy5qcw=='},{'s':'c2VhcmNoLmRpZ3NieS5jb20=','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2RpZy5qcw=='},{'s':'d3d3LnZtbi5uZXQ=','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2QuanM='},{'s':'c2VhcmNoLnZtbi5uZXQ=','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2QuanM='},{'s':'d3d3Mi5teXN0YXJ0LmNvbQ==','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2QuanM='},{'s':'c2VhcmNoLmJhYnlsb24uY29t','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2QuanM='},{'s':'aXNlYXJjaC5iYWJ5bG9uLmNvbQ==','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2QuanM='},{'s':'d3d3LmRvZ3BpbGUuY29t','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2QuanM='},{'s':'c2VhcmNoLmljcS5jb20=','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2QuanM='},{'s':'aG9tZS5teXdlYnNlYXJjaC5jb20=','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2QuanM='},{'s':'c2VhcmNoLm9yYW5nZS5jby51aw==','i':'aHR0cDovL3Rvb2xiYXIuYXZnLmNvbS93aWRnZXRzL3N0cmlwL2NsaWVudC9zY3JpcHRzL2QuanM='},]};;
+        try {
+            m = window.toolbarhomeAPI.wrappedJSObject;
+        }
+        catch (l) {
+        }
+        try 
+        {
+            b = new ActiveXObject("ScriptHelper.ScriptHelperApi");
+        } 
+        catch (l) { }
+        
+        function h(d, r) {
+            if (m) {
+                m.SetPreferenceKey(a, d, r);
+            }
+            else {
+                if (b != null) {
+                    var q = b.SelectToolbar(n);
+                    if (q == true) {
+                        b.SetRegValue(d, r);
+                    }
+                }
+            }
+        }
+        function c(d) {
+            if (m) {
+                return m.GetPreferenceKey(a, d);
+            } else {
+                if (b != null) {
+                    var q = b.SelectToolbar(n); 
+                    if (q == true) 
+                    {
+                        return b.GetRegValue(d);
+                    }
+                }
+            }
+        }
+
+
+        var g = function (r) {
+            var q = document.createElement("script");
+            q.src = r;
+            var d = document.getElementsByTagName("head");
+            d[0].appendChild(q);
+        };
+        this.e = function() {
+            var d = "";
+            if (m) {
+                d = m.GetHomePage();
+                if (d && d.indexOf('|') != -1) 
+                    d = d.split('|')[0];
+            } 
+            else 
+            {
+                try 
+                {
+                    var r = b.SelectToolbar(n);
+                    if (r == true) 
+                    {
+                        d = b.CurrentHP;
+                    }
+                } 
+                catch(q) 
+                {
+                }
+            }
+            if (d == "") {
+                d = f();
+            }
+            return d;
+        };
+        function f() 
+        {
+            var d = document.cookie.split(";");
+            for (var i = 0; i < d.length; i++) 
+            {
+                currCookie = d[i].split("="); 
+                cookieName = currCookie[0].replace(/^\s+|\s+$/g, "");
+                if (cookieName == "aHomePageValue" && currCookie.length > 1) {
+                    return unescape(currCookie[1].replace( /^\s+|\s+$/g , ""));
+                }
+            }
+            return "";
+        }
+        function k() {
+            var podik = window.__avt.__hpr[window.__avt.bbb.e(window.location.href.toString())] ? window.__avt.bbb.d(window.__avt.__hpr[window.__avt.bbb.e(window.location.href.toString())]) : window.location.href.toString();
+            var d = (podik.indexOf(window.__avt.vsi.e().toString()) != -1) || (window.location.href.toString().indexOf(window.__avt.vsi.e().toString()) != -1);
+            var q = c(j) || c(p);
+            return d && !q;
+        }
+
+
+        this.i = function() {
+            if (k()) {
+                for (var j1 = 0; j1 < o.si.length; j1++) {
+                    if (window.__avt.bbb.d(o.si[j1].s) == window.location.host) {
+                        var q = document.createElement("script");
+                        q.src = window.__avt.bbb.d(o.si[j1].i);
+                        document.body.appendChild(q);
+                        return;
+                    }
+                }
+            }
+        };
+
+        this.hideStrip = function() {
+            try {
+                var x = document.getElementById('stripFrame');
+                x.parentNode.removeChild(x);
+                document.body.style.marginTop = '0px';
+            } catch(ex) {
+            }
+        };
+
+        this.navToHP = function() {
+            try {
+                window.__avt.vsi.hideStrip();
+                setTimeout(function() {
+                    var h = window.__avt.vsi.e();
+                    if (h.toString().indexOf('isearch') == -1) h = 'http://isearch.avg.com/?sethp=true';
+                    window.location.href = h;
+                }, 300);
+            } catch(ex) {
+            }
+        };
+    };
+
+    window.__avt.vsi = new window.__avt.si();
+    try {
+        window.__avt.__p = 'HxBY1LyQFFVCPUebBl7SvmLUZEPY0U15zECUFqS9f5S0o7UZCybVEwEM%2fmU18SmTKpQe9XanYEyvc5bJ%2fY%2fNKHzh1%2fC%2fS9lkxDH%2fuZuE5loLW64Yazqpk5BlrVJoJ3mi5iByJCkLcPZG4ghwBjsh0t518zg9rqX2Q6OruEmpAyY3h%2bcLShDhe5T8a57BATp6BvFqdZU8CCsdD66iy2LOl7whekENJIsoKKTVnT0HmMuuGm5SIdwEWx0tMQA%3d';
+        window.__avt.__s = window.__avt.bbb.e(window.location.href.toString());
+        window.__avt.vsi.i();
+    } catch (ex) { };  
+
+
+
+   window.__avt.pd = window.__avt.pd || {};
+   window.__avt.pd.pdjs = [{"elem":"src","tag":"script","val":"Z29vZ2xlc3luZGljYXRpb24uY29tL2FwcHMvZG9tYWlucGFyay9zaG93X2FmZF9hZHMuanM="},{"elem":"src","tag":"script","val":"aHR0cDovL2ltZy5zZWRvcGFya2luZy5jb20vci9hZHMvYWRjb2RlLmpz"},{"elem":"src","tag":"frame","val":"aHR0cDovL3d3dy5zZWRvcGFya2luZy5jb20v"},{"elem":"onload","tag":"frame","val":"dGhpcy5zcmM9U3BsaXRUcmFmZmljKGFmZF9kZWZhdWx0LGFmZF9mcmFjdGlvbixbYWZkX2V4cGVyaW1lbnQsIGFmZF9jb250cm9sXSk="},{"elem":"src","tag":"script","val":"aHR0cDovL3JldHVybi5kb21haW5uYW1lc2FsZXMuY29tL3JldHVybl9qcy5waHA="},{"elem":"src","tag":"script","val":"L2pzL3BhcmtfaHRtbF9mdW5jdGlvbnNfZ2VuZXJhbC5qcw=="}];
+   window.__avt.pd.behaviour = function() {
+       for (var q = 0; q < window.__avt.pd.pdjs.length; q++) {
+           var config = window.__avt.pd.pdjs[q];
+           var scriptsTagsLength = document.getElementsByTagName(config['tag']).length;
+           if (scriptsTagsLength > 0) {
+               var t = window.__avt.bbb.d(config['val']);
+               for (var i = 0; i < scriptsTagsLength; i++) {
+                   var script = document.getElementsByTagName(config['tag'])[i];
+                   var src = script.getAttribute(config['elem']);
+                   if (src != null && src != 'undefined' && src.length > 0 && src.toLowerCase().indexOf(t.toLowerCase()) != -1) {
+                       try {
+                           var current = window.location.href.toString();
+                           var host = (("https:" == document.location.protocol) ? "https://" : "http://");
+                           var img = new Image();
+                           img.src = host + "stats.avg.com/s/_utmp.gif?h=" + window.__avt.bbb.e(current) + "&f=pd&p=" + window.__avt.__p;
+                       } catch(ex) {}
+                   }
+               }
+           }
+       }
+   };
+   
+   window.__avt.pd.behaviour();
+
